@@ -33,21 +33,21 @@ class ListMain extends Component {
     //Edits an existing item
     editItem(editedItem){
       const editedItemsArr = this.state.itemsArr.map(obj =>
-        obj.id === editedItem.id ? { id : obj.id, complete: obj.complete, item : editedItem.item, editing : !obj.editing } : obj);
+        obj.id === editedItem.id ? { ...obj, item : editedItem.item, editing : !obj.editing } : obj);
       this.setState({ itemsArr : editedItemsArr });
     }
 
     //Adds strikethrough text upon clicking line-item
     handleComplete(id){
       const newItemsArr = this.state.itemsArr.map(obj => 
-         obj.id === id ? { id : obj.id, complete: !obj.complete, item : obj.item, editing : obj.editing } : obj);
+         obj.id === id ? { ...obj, complete: !obj.complete } : obj);
       this.setState({ itemsArr : newItemsArr });
     }
 
     //not sure if this should be connected to its grandchild directly or if all info should go through the parent
     handleEditClick(id){
       const editedItemsArr = this.state.itemsArr.map(obj => 
-        obj.id === id ? { id : obj.id, editing: !obj.editing, item : obj.item, complete :obj.complete } : obj);
+        obj.id === id ? { ...obj, editing: !obj.editing } : obj);
      this.setState({ itemsArr : editedItemsArr });
     }
     
