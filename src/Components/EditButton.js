@@ -1,5 +1,5 @@
 /* 
-Description: 
+Description: Adds the edit icon and calls the line-item edit function on click
 */
 
 import React, { Component } from 'react';
