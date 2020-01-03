@@ -1,5 +1,5 @@
 /* 
-Description: Largest Parent - 
+Description: Main Parent - Holds main state and handles all edited, deleting, and addition of items
 */
 
 //editbutton - passes in an on click handler which toggles a itemsArr property called editing

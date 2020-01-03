@@ -1,5 +1,5 @@
 /* 
-Description: 
+Description: Handles the user input for adding an additional item
 */
 
 import React, { Component } from 'react';

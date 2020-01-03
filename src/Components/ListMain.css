@@ -1,9 +1,6 @@
 /* Styling for the full display of line-items */
 .itemsGrid{
-    /* display: grid;   
-    grid-template-rows: repeat(auto-fill ); */
-    margin: 1rem 0 0 0;
-    
+    margin-top: .5rem;    
 }
 .header {
     border: 3px dashed rgb(140, 141, 140);
