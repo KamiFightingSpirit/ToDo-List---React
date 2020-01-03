@@ -14,7 +14,7 @@ class Edit extends Component {
   constructor(props){
     super(props);
     this.state = {
-      item : '',
+      item : this.props.item,
       id : '',
     }
   }  
