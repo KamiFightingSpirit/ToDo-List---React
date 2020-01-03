@@ -82,7 +82,7 @@ class ListMain extends Component {
     
     return(
     <div>        
-        <div className="header"><h2>To Do List: </h2>
+        <div className="header"><h2>To-Do List: </h2>
         <Form addItem={this.addItem}/></div>
         <div className="itemsGrid">
           {items}
