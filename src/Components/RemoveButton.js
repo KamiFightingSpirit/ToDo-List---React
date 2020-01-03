@@ -13,9 +13,9 @@ class RemoveButton extends Component {
 
   render() {
     const trashIcon = <i onClick={this.handleDelete} class="fas fa-trash-alt"></i>    
+    
     return(
-        <span>{trashIcon}</span>
-        
+        <span>{trashIcon}</span>        
     )
   }
 }

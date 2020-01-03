@@ -57,7 +57,6 @@ class ListMain extends Component {
     }
     
   render() {
-
     //index -- used to create the ordered numbers on line-items
     //item -- is used to store the todo string 
     //id -- unique indicator of this item
@@ -81,11 +80,11 @@ class ListMain extends Component {
     
     return(
     <div>        
-        <div className="header"><h2>To-Do List: </h2>
-        <Form addItem={this.addItem}/></div>
-        <div className="itemsGrid">
-          {items}
-        </div>        
+      <div className="header">
+        <h2>To-Do List: </h2>
+        <Form addItem={this.addItem}/>
+      </div>
+      <div className="itemsGrid">{items}</div>
     </div>
     )
   }

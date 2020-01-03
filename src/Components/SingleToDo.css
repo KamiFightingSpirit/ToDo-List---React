@@ -13,14 +13,14 @@
     border: 1px dashed rgb(228, 225, 225);
     padding-left: 0.5rem;    
 }
-.lineRowText:hover{
-    cursor: pointer;
-}
+
 /* Styling for the text within a line-item */
 .lineRowText{
     display: grid;
-    grid-template-columns: minmax(30px,auto) 1fr;
-   
+    grid-template-columns: minmax(30px,auto) 1fr;   
+}
+.lineRowText:hover{
+    cursor: pointer;
 }
 
 /*Auto added via the index of the item in state.itemsArr */

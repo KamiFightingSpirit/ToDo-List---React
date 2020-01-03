@@ -34,11 +34,9 @@ class Form extends Component {
     }
 
   render() {
-
     const userInputLabel = <label htmlFor="todo Input"></label>;
     const userInput = <input onChange={this.handleChange} type="text" id="todo Input" name="item" value={this.state.item} placeholder="Enter a New Item" ></input>;
     const submitButton = <button>Submit!</button>;
-
 
     return(        
     <div>        
