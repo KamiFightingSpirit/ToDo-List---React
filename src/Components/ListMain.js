@@ -1,5 +1,5 @@
 /* 
-Description: 
+Description: Largest Parent - 
 */
 
 //editbutton - passes in an on click handler which toggles a itemsArr property called editing
@@ -33,7 +33,6 @@ class ListMain extends Component {
     //Edits an existing item
     editItem(editedItem){
       const editedItemsArr = this.state.itemsArr.map(obj =>
-        //potential error in editing flag change
         obj.id === editedItem.id ? { id : obj.id, complete: obj.complete, item : editedItem.item, editing : !obj.editing } : obj);
       this.setState({ itemsArr : editedItemsArr });
     }
@@ -91,7 +90,5 @@ class ListMain extends Component {
     )
   }
 }
-
-
 
 export default ListMain;

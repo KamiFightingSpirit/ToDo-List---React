@@ -7,7 +7,6 @@ import React, { Component } from 'react';
 import EditButton from './EditButton.js';
 import RemoveButton from './RemoveButton.js';
 
-
 //Styling:
 import './SingleToDo.css';
 
