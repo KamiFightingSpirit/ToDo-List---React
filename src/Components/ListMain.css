@@ -1,0 +1,15 @@
+/* Styling for the full display of line-items */
+.itemsGrid{
+    /* display: grid;   
+    grid-template-rows: repeat(auto-fill ); */
+    margin: 1rem 0 0 0;
+    
+}
+.header {
+    border: 3px dashed rgb(140, 141, 140);
+    width: 404px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
