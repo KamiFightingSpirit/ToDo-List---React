@@ -12,7 +12,7 @@ class EditButton extends Component {
     this.props.handleEditClick(this.props.id)
   }
   render() {
-    
+
     return(
     <span onClick={this.handleEditClick}>
       <i class="fas fa-edit"></i>
@@ -20,7 +20,5 @@ class EditButton extends Component {
     )
   }
 }
-
-
 
 export default EditButton;
